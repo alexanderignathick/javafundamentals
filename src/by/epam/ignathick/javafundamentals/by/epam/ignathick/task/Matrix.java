@@ -1,18 +1,18 @@
-package by.epam.ignathick.javafundamentals.by.epam.ignathick.task1;
+package by.epam.ignathick.javafundamentals.by.epam.ignathick.task;
 
 import java.util.Random;
 
-public class Task1 {
+public class Matrix {
     int interval = 10;
     int dimmension = 5;
     int[][] matrix = new int[dimmension][dimmension];
 
-    public Task1() {
+    public Matrix() {
         putValuesIntoTheMatix();
         calculateSumm();
     }
 
-    public Task1(int interval, int dimmension) {
+    public Matrix(int interval, int dimmension) {
         this.interval = interval;
         this.dimmension = dimmension;
 

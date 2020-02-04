@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eadda99a-baf6-49d8-a85a-cbd0ed774eef" name="Default Changelist" comment="" />
+    <list default="true" id="eadda99a-baf6-49d8-a85a-cbd0ed774eef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/by/epam/ignathick/javafundamentals/by/epam/ignathick/task/NumerArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/ignathick/javafundamentals/by/epam/ignathick/task/RandomNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/ignathick/javafundamentals/by/epam/ignathick/task/ReverseArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/ignathick/javafundamentals/by/epam/ignathick/task/UserWelcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/ignathick/utils/InputUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/ignathick/javafundamentals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/ignathick/javafundamentals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/ignathick/javafundamentals/by/epam/ignathick/task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/ignathick/javafundamentals/by/epam/ignathick/task/Matrix.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="235" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,10 +28,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XJNs7FwWo8nDfd1PorLKLWPyiG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.epam.ignathick.utils" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,7 +65,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="by.epam.ignathick.javafundamentals.Main" />
       <module name="javafundamentals" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="hello word" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -60,13 +89,34 @@
       <option name="presentableId" value="Default" />
       <updated>1580760440953</updated>
       <workItem from="1580760444650" duration="2755000" />
+      <workItem from="1580840942785" duration="3858000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/epam/ignathick/javafundamentals/by/epam/ignathick/task/ReverseArgument.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="matrix[i][j]" language="JAVA" />
@@ -74,5 +124,8 @@
         <watch expression="lastPositiveValueInRow == 0" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javafundamentals$Main.ic" NAME="Main Coverage Results" MODIFIED="1580841752250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
